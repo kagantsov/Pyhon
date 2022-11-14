@@ -1,0 +1,14 @@
+Нам не нужно прописывать никаких команд, следуем приложеной к README инструкции и возможностями PYCHARM
+
+Запускаем юниттест
+
+C:\Users\Администратор\PycharmProjects\AAA\venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.1/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target test_3.py::TestFitTransform.test_names_various
+Testing started at 22:40 ...
+Launching pytest with arguments test_3.py::TestFitTransform::test_names_various --no-header --no-summary -q in C:\Users\Администратор\PycharmProjects\Pyhon\hw_6_i03
+
+============================= test session starts =============================
+collecting ... collected 1 item
+
+test_3.py::TestFitTransform::test_names_various PASSED                   [100%]
+
+============================== 1 passed in 0.00s ==============================
