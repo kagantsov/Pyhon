@@ -1,0 +1,17 @@
+Нам не нужно прописывать никаких команд, следуем приложеной к README инструкции и возможностями PYCHARM
+
+Запускаем паутест
+
+C:\Users\Администратор\PycharmProjects\AAA\venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.1/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target test_2.py::test_decode
+Testing started at 21:23 ...
+Launching pytest with arguments test_2.py::test_decode --no-header --no-summary -q in C:\Users\Администратор\PycharmProjects\Pyhon\hw_6_i02
+
+============================= test session starts =============================
+collecting ... collected 4 items
+
+test_2.py::test_decode[-- .- .. -....- .--. -.-- - .... --- -. -....- ..--- ----- .---- ----.-MAI-PYTHON-2019] PASSED [ 25%]
+test_2.py::test_decode[ -] PASSED                                        [ 50%]
+test_2.py::test_decode[..--- ...-- ----- ..--- ..--- ----- ----- ------23022000] PASSED [ 75%]
+test_2.py::test_decode[.- ...- .. - --- -....- .- -.-. .- -.. . -- -.---AVITO-ACADEMY] PASSED [100%]
+
+============================== 4 passed in 0.01s ==============================
