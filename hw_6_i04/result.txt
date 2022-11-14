@@ -1,0 +1,17 @@
+Нам не нужно прописывать никаких команд, следуем приложеной к README инструкции и возможностями PYCHARM
+
+Запускаем пайтест
+
+C:\Users\Администратор\PycharmProjects\AAA\venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.1/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --path C:/Users/Администратор/PycharmProjects/Pyhon/hw_6_i04/test_4.py
+Testing started at 22:51 ...
+Launching pytest with arguments C:/Users/Администратор/PycharmProjects/Pyhon/hw_6_i04/test_4.py --no-header --no-summary -q in C:\Users\Администратор\PycharmProjects\Pyhon\hw_6_i04
+
+============================= test session starts =============================
+collecting ... collected 4 items
+
+test_4.py::test_names_various PASSED                                     [ 25%]
+test_4.py::test_names_equal PASSED                                       [ 50%]
+test_4.py::test_len PASSED                                               [ 75%]
+test_4.py::test_if_empty PASSED                                          [100%]
+
+======================== 4 passed, 1 warning in 0.02s =========================
