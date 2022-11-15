@@ -31,7 +31,7 @@ def test_date_format():
     """
     Тест сравнивает формат полученной даты и тестовой даты
     """
-    date = io.StringIO('{"currentDateTime": "04/11/2022T00:00Z"}')
+    date = io.StringIO('{"currentDateTime": "01/12/2020T21:29Z"}')
     with patch.object(urllib.request, 'urlopen', return_value=date):
         with pytest.raises(ValueError):
             what_is_year_now()
@@ -41,7 +41,7 @@ def test_no_date():
     """
     Тест проверяет есть ли дата
     """
-    no_date = io.StringIO('{"DATE": "TIME"}')
+    no_date = io.StringIO('{"ML": "Boosting"}')
     urllib.request.urlopen = MagicMock(return_value=no_date)
     with pytest.raises(KeyError):
         what_is_year_now()
