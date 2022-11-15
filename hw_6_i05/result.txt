@@ -1,0 +1,13 @@
+Нам не нужно прописывать никаких команд, следуем приложеной к README инструкции и возможностями PYCHARM
+
+Запускаем тест
+
+============================= test session starts =============================
+collecting ... collected 4 items
+
+test_5.py::test_date_dash PASSED                                         [ 25%]
+test_5.py::test_date_dots PASSED                                         [ 50%]
+test_5.py::test_date_format PASSED                                       [ 75%]
+test_5.py::test_no_date PASSED                                           [100%]
+
+============================== 4 passed in 0.03s ==============================
