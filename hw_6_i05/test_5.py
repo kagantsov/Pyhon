@@ -45,11 +45,3 @@ def test_no_date():
     urllib.request.urlopen = MagicMock(return_value=no_date)
     with pytest.raises(KeyError):
         what_is_year_now()
-
-
-def main():
-    pass
-
-
-if __name__ == '__main__':
-    main()

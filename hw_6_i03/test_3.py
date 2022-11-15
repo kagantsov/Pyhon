@@ -31,16 +31,14 @@ class TestFitTransform(unittest.TestCase):
         """
         data = fit_transform(['Moscow', 'New York', 'Haifa'])
         test_len = 2
-        if len(data) != test_len:
-            False
-        self.assertFalse(False)
+        self.assertFalse(len(data) == test_len)
 
     def test_if_empty(self):
         """
         Проверяет на исключение, в случае, когда ментод вызывается пустым
         """
-        with self.assertRaises(TypeError) as context:
-            data = fit_transform()
+        with self.assertRaises(TypeError):
+            fit_transform()
 
 
 if __name__ == '__main__':

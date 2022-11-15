@@ -32,9 +32,7 @@ def test_len():
     """
     data = fit_transform(['Moscow', 'New York', 'Haifa'])
     test_len = 2
-    if len(data) != test_len:
-        return False
-    assert False
+    assert len(data) != test_len
 
 
 def test_if_empty():
@@ -42,12 +40,4 @@ def test_if_empty():
     Проверяет на исключение, в случае, когда ментод вызывается пустым
     """
     with pytest.raises(TypeError):
-        data = fit_transform()
-
-
-def main():
-    pass
-
-
-if __name__ == '__main__':
-    main()
+        fit_transform()

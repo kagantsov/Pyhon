@@ -14,9 +14,3 @@ def test_decode(test, expected):
     assert decode(test) == expected
 
 
-def main():
-    pass
-
-
-if __name__ == '__main__':
-    main()
