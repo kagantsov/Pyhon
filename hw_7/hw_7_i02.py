@@ -8,7 +8,6 @@ def timed_output(function):
         current_datetime = str(datetime.now().replace(microsecond=0))
         sys.stdout.write(f'[{current_datetime}]: ')
         return function(some_text)
-
     return wrapper
 
 
