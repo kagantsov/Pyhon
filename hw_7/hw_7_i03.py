@@ -1,10 +1,12 @@
 import sys
 import io
+from functools import wraps
 
 
 def redirect_output(filepath):
     """Декторатор, который перенаправляет вывод фукнции в файл"""
     def decorator(func):
+        @wraps(func)
         def wrapper(*args, **kwargs):
             base_stdout = sys.stdout
             sys.stdout = io.StringIO()
