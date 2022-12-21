@@ -23,7 +23,7 @@ def menu():
     print(f' - 🧀 The most cheesy Margherita in your life: {Margherita().dict()}')
     print(f' - 🌶 The most piquant Pepperoni in the world: {Pepperoni().dict()}')
     print(f' - 🍍 The sweetest Hawaiian in the galaxy: {Hawaiian().dict()}')
-    print(f' - 🥕 Baby carrots for your little companions: {BabyCarrot().dict()}')
+    print(f' - 🥕 BabyCarrot pizza for your little companions: {BabyCarrot().dict()}')
 
 
 if __name__ == '__main__':
